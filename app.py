@@ -26,4 +26,7 @@ with col2:
 
     if bereken:
         st.success(f"Invoer ontvangen: {steunpunten} steunpunten, {puntlasten} puntlasten, {verdeelde_lasten} verdeelde lasten.")
-        st.info("Hier komen later de normaalkrachtlijn, dwarskrachtenlijn en momentenlijn.")
+        st.subheader("Resultaten")
+        st.write("Normaalkrachtlijn: nog niet berekend.")
+        st.write("Dwarskrachtenlijn: nog niet berekend.")
+        st.write("Momentenlijn: nog niet berekend.")
